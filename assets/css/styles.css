@@ -1,2 +1,36 @@
 
 /* css */
+
+body {
+    background-color: #1DB954;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.test {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 25px;
+    height: 60px;
+    font-size: 45px;
+    white-space: nowrap;
+}
+
+.navbar-custom {
+    height: 60px;
+}
