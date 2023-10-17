@@ -17,6 +17,12 @@ p {
     color: black;
 }
 
+li {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
 img {
     border-radius: 25px;
 }
@@ -33,4 +39,29 @@ img {
 
 .navbar-custom {
     height: 60px;
+}
+
+.question {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.blankSpace1 {
+    height: 200px;
+}
+
+/* .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+
+.blankSpace2 {
+    height: 100px;
+}
+
+#inputValues {
+    text-align: right;
 }
