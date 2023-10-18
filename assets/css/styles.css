@@ -39,11 +39,10 @@ img {
     height: 60px;
 }
 
-@media (max-width: 768px) {
-    .navbar-custom.navbar-expand-md .navbar-collapse {
-      background-color: black;
-    }
+.navbar-custom.navbar-expand-md .navbar-collapse {
+    background-color: black;
 }
+
  
 
 .question {
