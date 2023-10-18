@@ -32,31 +32,29 @@ img {
     background-color: black;
     text-align: center;
     border-radius: 25px;
-    height: 60px;
     font-size: 45px;
-    white-space: nowrap;
 }
 
 .navbar-custom {
     height: 60px;
 }
 
+@media (max-width: 768px) {
+    .navbar-custom.navbar-expand-md .navbar-collapse {
+      background-color: black;
+    }
+}
+ 
+
 .question {
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 20px;
     color: black;
 }
 
 .blankSpace1 {
     height: 200px;
 }
-
-/* .input-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-} */
 
 .blankSpace2 {
     height: 100px;
