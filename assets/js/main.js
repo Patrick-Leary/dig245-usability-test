@@ -3,9 +3,12 @@
 
 
 document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("susScoreForm");
     const button = document.getElementById("button");
 
-    button.addEventListener("click", function() {
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
         let q1 = parseInt(document.getElementById('q1').value);
         let q2 = parseInt(document.getElementById('q2').value);
         let q3 = parseInt(document.getElementById('q3').value);
@@ -17,12 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
         let q9 = parseInt(document.getElementById('q9').value);
         let q10 = parseInt(document.getElementById('q10').value);
 
-        let susScore = (q1-1+5-q2+q3-1+5-q4+q5-1+5-q6+q7-1+5-q8+q9-1+5-q10) * 2.5
+        let susScore = (q1 - 1 + 5 - q2 + q3 - 1 + 5 - q4 + q5 - 1 + 5 - q6 + q7 - 1 + 5 - q8 + q9 - 1 + 5 - q10) * 2.5
 
         const scoreValue = document.getElementById("scoreValue");
         scoreValue.textContent = susScore;
     })
 })
+
 
 console.log("https://www.figma.com/file/5mdBcbW0zWtWLwSPk73Rz5/Usability-Test?type=design&node-id=0-1&mode=design&t=acRSamaosqCqgzuv-0")
 
