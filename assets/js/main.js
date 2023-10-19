@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const button = document.getElementById("button");
 
     form.addEventListener("submit", function(event) {
-        event.preventDefault();
 
         let q1 = parseInt(document.getElementById('q1').value);
         let q2 = parseInt(document.getElementById('q2').value);
