@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     form.addEventListener("submit", function(event) {
 
+        event.preventDefault();
+
         let q1 = parseInt(document.getElementById('q1').value);
         let q2 = parseInt(document.getElementById('q2').value);
         let q3 = parseInt(document.getElementById('q3').value);
